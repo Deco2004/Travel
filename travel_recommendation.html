@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverlers of the world</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0077b6;
+            padding: 10px 20px;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+        .search-container input[type="text"] {
+            padding: 5px;
+            margin-right: 5px;
+        }
+        /* Home Page */
+        .home {
+            background-image: url('https://media.istockphoto.com/id/2178020702/photo/new-york-cityscape-aerial.webp?a=1&b=1&s=612x612&w=0&k=20&c=qQ1MPRCByNYmMhHfeMRYzW-XKtKYX7cp3JnhN_SS_po=');
+            background-size: cover;
+            color: white;
+            height: 90vh;
+            padding: 50px;
+            text-align: center;
+        }
+        .home h1 {
+            font-size: 3em;
+        }
+        .social-icons img {
+            width: 30px;
+            margin: 10px;
+        }
+        /* About Us Page */
+        .about {
+            padding: 50px;
+            background-color: #f0f0f0;
+        }
+        .team {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Task 2: Navbar -->
+    <div class="navbar">
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search recommendations...">
+            <button>Search</button>
+            <button type="reset">Reset</button>
+        </div>
+    </div>
+
+    <!-- Task 3: Home Page -->
+    <section class="home" id="home">
+        <h1>Welcome to Traverls of the world</h1>
+        <p>Your travel recommendation guide around the world</p>
+        <div class="social-icons">
+            <a href="#"><img src="https://img.icons8.com/ios-filled/50/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/50/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/50/instagram-new.png" alt="Instagram"></a>
+        </div>
+    </section>
+
+    <!-- Task 4: About Us Page -->
+    <section class="about" id="about">
+        <h2>About Traverlers of the world</h2>
+        <p>We are a team of passionate travelers dedicated to helping others discover the best destinations across the globe.</p>
+        
+        <div class="team">
+            <h3>Meet Our Team</h3>
+            <ul>
+                <li><strong>Denzel Moyo</strong> – Lead Developer</li>
+                <li><strong>Shaun Sibanda</strong> – Travel Researcher</li>
+                <li><strong>Bukhosi Dube</strong> – UI/UX Designer</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Task 4: Contact Us section -->
+    <section class="about" id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us at travelersoftheworld@gmail.com or follow us on our social platforms.</p>
+    </section>
+
+</body>
+</html>
